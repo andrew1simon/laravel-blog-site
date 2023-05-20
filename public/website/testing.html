@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body onbeforeunload="return myFunction()">
+<h1>HTML DOM Events</h1>
+<h2>The beforeunload Event</h2>
+
+<p>Reload this page, or click on the link below to invoke the onbeforeunload event.</p>
+
+<a href="https://www.w3schools.com">Click here to go to w3schools.com</a>
+    
+<script>
+function myFunction(event) {
+    event.preventDefault();
+  console.log("hiiii")
+}
+</script>
+
+</body>
+</html>
